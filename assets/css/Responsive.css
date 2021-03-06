@@ -1,0 +1,1168 @@
+/* CSS Media Quries */
+
+@media (max-width:768px) {
+    /* Nav Media Quries */
+    .navbar-brand img {
+        width: 210px;
+    }
+    .nvabar-rgt{
+        /* float: right !important; */
+        margin-left: 1rem;
+        margin: none;
+     }
+     
+    /* Banner Media Quries */
+    /* banner txt media quries */
+    .home-banner-txt {
+        /* width: 100%; */
+        margin-top: 170px;
+        margin-left: 30px;
+    }
+    .home-banner-title {
+        margin-right: 0px;
+    }
+    .home-banner-title h2 {
+        font-size: 32px !important;
+    }
+    .home-banner-live-sec p {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .home-banner-btns {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .home-banner-livecount {
+        display: flex;
+        justify-content: center;
+    }
+    .home-banner-weacpt {
+        display: block;
+        justify-content: center;
+        width: auto;
+        margin-top: 20px;
+    }
+    .banner-weacpt-title {
+        text-align: center;
+    }
+    .banner-weacpt {
+        margin: 0 60px !important;
+    } 
+
+    
+    .home-banner-img {
+        margin-top: 115px;
+        margin-left: 40px;
+    }
+    /* Meet Solution Media Quries */
+    .meetsolution-header .solution-para {
+        padding: 10px 17px;
+        font-size: 16PX;
+        font-weight: 500;
+        margin-top: 10PX;
+    }
+    .solution-cards {
+        margin: 0px 55px 0 35px;
+    }
+    .soln-cards .card {
+        width: 315px;
+        height: 305px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        background: rgb(18, 24, 51);
+        padding: 10px;
+        /* font-family: 'Poppins', sans-serif; */
+    }
+    #aboutcrypto .aboucrypto-img {
+        width: auto;
+        /* margin-left: 0px !important; */
+        margin-top: 20px;
+    }
+    /* Token Sale Media Quries */
+    #tokensale {
+        padding: 135px 130px;
+        /* font-family: 'Poppins', sans-serif; */
+        display: flex;
+        justify-content: center;
+    }
+    .toke-distribution {
+        margin-top: 50px;
+    }
+    .distribution-img img {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    /* Mobile App Media Quries */
+    .mobile-app-txt {
+        text-align: center;
+        margin-left: 0px;
+        padding: 0 20px;
+    }
+    .mobile-app-img {
+        margin-left: 0px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    /* Latest News Media Quries */
+    #latestnews {
+        height: auto;
+        margin: 24px 34px;
+    }
+    .item-a,
+    .item-b,
+    .item-c,
+    .item-d,
+    .item-e {
+        margin: 0 90px;
+    }
+    #adaptive .card {
+        width: 290px;
+        height: 450px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        /* margin: 0px 30px; */
+    }
+    /* Client Media Quries */
+    .clients-logo {
+        padding: 56px 25px !important;
+    }
+    .client-logo-1 img,
+    .client-logo-2 img,
+    .client-logo-3 img,
+    .client-logo-4 img,
+    .client-logo-5 img,
+    .client-logo-6 img,
+    .client-logo-7 img,
+    .client-logo-8 img {
+        width: 230px;
+        padding: 35px !important;
+    }
+    .client-logo-1,
+    .client-logo-2 {
+        border-bottom: 1px solid grey;
+        border-right: 1px solid gray;
+    }
+    .client-logo-3 {
+        border-bottom: 1px solid grey;
+        border-right: 0px solid grey !important;
+    }
+    .client-logo-4 {
+        border-right: 1px solid grey !important;
+    }
+    .client-logo-5 {
+        border-bottom: 1px solid gray;
+    }
+    .client-logo-6 {
+        border-bottom: 1px solid grey;
+        border-right: 0px solid grey !important;
+    }
+    .client-logo-8 {
+        border-right: 1px solid grey;
+        padding-right: 10px;
+    }
+    /* Contact Media Quries */
+    #contactus {
+        padding: 0px;
+    }
+    .cont-with-us {
+        width: 230px;
+        background: rgb(18, 24, 51) !important;
+        padding: 20px 0px;
+    }
+    .contact-form input {
+        width: 330px;
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .contact-form .form-btn .btn {
+        padding: 10px 120px;
+        margin-left: 2px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 100px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #homefooter .footer {
+        width: 100% !important;
+        background: rgba(18, 24, 51, .4);
+        padding: 40px;
+        margin-top: 40px;
+    }
+}
+
+
+/* Media Quries 540px */
+
+@media(max-width:540px) {
+    /* Banner Media Quries */
+    .home-banner-txt {
+        /* width: 100%; */
+        margin-top: 110px;
+        margin-left: 13px;
+    }
+    .home-banner-title h2 {
+        font-size: 32px !important;
+       text-align: center !important;
+    }
+
+    .banner-livecount {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 365px;
+        height: 105px;
+        padding: 20px 5px;
+    }
+/* 
+    .banner-weacpt .bitcoin,
+    .ethereum,
+    .litecoin,
+    .ripple {
+        font-size: 17px !important;
+        font-weight: 200 !important;
+        margin: 0 auto;
+    }
+ */
+
+    
+    .banner-weacpt .bitcoin p,
+    .ethereum p,
+    .litecoin p,
+    .ripple p{
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        margin: 0 1px;
+       
+     }
+
+    .banner-weacpt .bitcoin i,
+    .ethereum i,
+    .litecoin i,
+    .ripple i {
+    font-size: 14px;
+    }
+    
+    .home-banner-img {
+        margin-top: 115px;
+        margin-left: 0px;
+    }
+    .home-banner-img img {
+        width: 525px !important;
+    }
+    /* Solutions Media Quries */
+
+    .soln-cards .card {
+        width: 462px;
+        height: 305px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        background: rgb(18, 24, 51);
+        padding: 20px;
+        /* font-family: 'Poppins', sans-serif; */
+    }
+    .soln-cards .card img {
+        width: 50px;
+        margin-left: 182px;
+        text-align: center !important;
+        background: rgb(18, 24, 51);
+    }
+    #aboutcrypto .aboucrypto-img {
+        width: auto;
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    .aboutcrypto-txt {
+        margin-left: 4px;
+        margin-top: 20px;
+        color: #fff;
+        /* font-family: 'Poppins', sans-serif; */
+        padding-right: 14px;
+    }
+    #tokensale {
+        padding: 107px 12px;
+        /* font-family: 'Poppins', sans-serif; */
+        display: flex;
+        justify-content: center;
+    }
+
+.sale-proceed-txt{
+    justify-content: center;
+}
+
+    .sale-prcd-txt p {
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .token-distribution {
+        margin-top: 90px !important;
+    }
+
+   .distribution-txt{
+    justify-content: center;
+    }
+
+    .distbn-txt p {
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    /* Mobile App Media Quries */
+
+    #mobileapp {
+        background: rgb(18, 24, 51);
+        /* background: url(.///); */
+        padding: 40px 0;
+    }
+    .mobile-app-txt {
+        margin-left: 0px;
+        color: #fff;
+        /* font-family: 'Poppins', sans-serif; */
+        margin-top: 30px;
+    }
+    .mobile-app-title>hr{
+        margin: 15px auto;
+    }
+
+/* QnA Media */
+
+    #qna {
+        height: auto;
+        margin-top: 69px;
+    }
+
+    .qna-header .qna-para {
+        font-size: 16px;
+        margin: 30px 0px;
+        line-height: 1.9;
+    }
+    
+    #latestnews {
+        padding-top: 90px;
+        height: auto;
+        margin: 20px 0px;
+    }
+    .item-a,
+    .item-b,
+    .item-c,
+    .item-d,
+    .item-e {
+        margin: 0 200px !important;
+    }
+    #adaptive .card {
+        width: 500px;
+        height: 550px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        margin: 0px 0px;
+    }
+    .clients-logo {
+        padding: 20px 25px !important;
+    }
+    .client-logo-1 img,
+    .client-logo-2 img,
+    .client-logo-3 img,
+    .client-logo-4 img,
+    .client-logo-5 img,
+    .client-logo-6 img,
+    .client-logo-7 img,
+    .client-logo-8 img {
+        width: 180px;
+        padding: 20px !important;
+    }
+    .client-logo-1 {
+        border-bottom: 1px solid grey;
+        border-right: 1px solid gray;
+    }
+    .client-logo-2 {
+        border-bottom: 1px solid grey;
+        border-right: 0px solid gray !important;
+    }
+    .client-logo-3 {
+        border-bottom: 1px solid grey;
+        border-right: 1px solid grey !important;
+    }
+    .client-logo-4 {
+        border-right: 0px solid grey !important;
+    }
+    .client-logo-5 {
+        border-bottom: 1px solid gray;
+    }
+    .client-logo-6 {
+        border-bottom: 1px solid grey;
+        border-right: 0px solid grey !important;
+    }
+    .client-logo-8 {
+        border-right: 0px solid grey;
+        padding-right: 10px;
+    }
+    .contact-form input {
+        width: 480px;
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .contact-form .form-btn .btn {
+        padding: 15px 190px;
+        margin-left: 2px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 100px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    /* Footer Media Quries */
+    #homefooter {
+        padding: 50px 0px 0px 0px;
+        background: url(../img/footer-bg.png);
+        background-attachment: fixed;
+    }
+    .newsletter-input input {
+        margin-top: 20px;
+        padding: 13px 190px 13px 20px;
+        font-size: 19px;
+        border-radius: 50px;
+    }
+    .newsletter-input .btn {
+        height: 44px;
+        padding: 1px 38px !important;
+        position: relative !important;
+        right: 170px !important;
+        top: 28px;
+        background-color: rgb(18, 24, 51);
+        color: #fff;
+        border-radius: 20px;
+    }
+    .copy-right-txt {
+        text-align: center;
+    }
+    .copy-link {
+        justify-content: center !important;
+        
+    }
+    /* .copyright-link {
+        float: right !important;
+        text-align: center !important;
+        align-items: center !important;
+    } */
+}
+
+
+/* Media Quries 414px */
+
+@media(max-width:414px) {
+    /* Banner Media Quries */
+    .navbar-brand img {
+        width: 170px;
+    }
+    .home-banner-txt {
+        /* width: 100%; */
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .home-banner-title h2 {
+        font-size: 20px !important;
+        margin: 5px 0 22px 11px;
+    }
+
+    .home-banner-live-sec p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .banner-livecount {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 365px;
+        height: 105px;
+        padding: 20px 5px;
+    }
+    .banner-livecount .livecount h4 {
+        font-size: 26px;
+        font-weight: 100;
+        margin-left: 18px;
+    }
+    .banner-livecount .livecount p {
+        font-size: 13px;
+        margin-left: 19px;
+    }
+    .home-banner-btns .whitepaper {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        padding: 10px 23px 13px 22px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 25px;
+    }
+    .home-banner-img img {
+        width: 400px !important;
+    }
+    .meetsolution-header .solution-title {
+        font-size: 24px;
+        font-weight: 500 !important;
+    }
+    .meetsolution-header>hr{
+        width: 100px;
+        height: 1px;
+        background-color: white;
+        margin-left: 35% !important;
+    
+    }
+    .meetsolution-header .solution-para {
+        padding: 10px 17px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10PX;
+    }
+    .solution-cards {
+        margin: 0px 10px 0 10px;
+    }
+    .soln-cards .card {
+        width: 370px;
+        height: 240px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        background: rgb(18, 24, 51);
+        padding: 10px;
+        /* font-family: 'Poppins', sans-serif; */
+    }
+    .soln-cards .card img {
+        width: 50px;
+        margin-left: 145px;
+        text-align: center !important;
+        background: rgb(18, 24, 51);
+    }
+    .soln-cards .card-title {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .soln-cards .card-text {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    #aboutcrypto .aboucrypto-img img {
+        width: 400px;
+    }
+    .aboutcrypto-txt {
+        margin-left: 0px;
+        margin-top: 20px;
+        color: #fff;
+        /* font-family: 'Poppins', sans-serif; */
+        padding-right: 21px;
+    }
+    .aboutcryp-para2 {
+        margin-top: 20px;
+    }
+    .token-sale-proceed-title h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .sale-proceed-img img {
+        width: 380px;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    .distribution-title h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .distribution-img img {
+        width: 380px !important;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    #mobileapp {
+        background: rgb(18, 24, 51);
+        /* background: url(.///); */
+        padding: 0px 0;
+    }
+    .mobile-app-txt {
+        text-align: center;
+        margin-left: 0px;
+        padding: 40px 0px;
+        margin-top: 0px !important;
+    }
+    .mobile-app-title h2 {
+        font-size: 24px;
+        font-weight: 400px !important;
+    }
+    .mobile-app-title hr {
+        width: 70px;
+        height: 1px;
+        background-color: #fff;
+        margin-left: 150px !important;
+    }
+    .mobile-app-para p {
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 1.9;
+    }
+    .mobile-app-btn .btn {
+        padding: 11px 22px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 30px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .mobile-app-img {
+        margin-left: 0px;
+        margin-top: 35px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #latestnews {
+        padding-top: 90px;
+        height: auto;
+        margin: 20px 0px;
+    }
+    .item-a,
+    .item-b,
+    .item-c,
+    .item-d,
+    .item-e {
+        margin: 0 290px;
+    }
+    #adaptive .card {
+        width: 360px;
+        height: 480px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        margin: 0px 0px;
+    }
+
+    #adaptive .card-title {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #adaptive .card-text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .client-logo-1 img,
+    .client-logo-2 img,
+    .client-logo-3 img,
+    .client-logo-4 img,
+    .client-logo-5 img,
+    .client-logo-6 img,
+    .client-logo-7 img,
+    .client-logo-8 img {
+        width: 160px;
+        padding: 20px !important;
+    }
+    #contactus {
+        padding-top: 45px;
+    }
+
+    .address-txt .address-title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .address-txt .address-para {
+        font-size: 14px;
+    }
+
+    .phone-txt .phone-title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .phone-txt .phone-para {
+        font-size: 15px;
+    }
+
+    
+   .email-id-txt .email-id-title {
+       font-size: 15px;
+       font-weight: 500;
+    }
+
+    .email-id-txt .email-id-para {
+        font-size: 15px;
+    }
+
+    .contact-form input {
+        width: 350px;
+        padding: 15px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .contact-form .form-btn .btn {
+        padding: 13px 130px;
+        margin-left: 2px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 100px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+
+    #homefooter {
+        padding: 70px 0px 0px 15px;
+        background: url(../img/footer-bg.png);
+        background-attachment: fixed;
+    }
+
+    #homefooter .footer {
+        width: 100% !important;
+        background: rgba(18, 24, 51, .4);
+        padding: 0px;
+    }
+    .crypto-info-txt p {
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.9;
+    }
+    .ql-links a {
+        color: #fff;
+        font-size: 14px;
+    }
+    .newsletter-para p {
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.9;
+    }
+    .newsletter-input input {
+        margin-top: 20px;
+        padding: 12px 135px 12px 16px;
+        font-size: 19px;
+        border-radius: 50px;
+    }
+    .newsletter-input .btn {
+        height: 44px;
+        padding: 1px 23px !important;
+        position: relative !important;
+        right: 141px !important;
+        top: 28px;
+        background-color: rgb(18, 24, 51);
+        color: #fff;
+        border-radius: 20px;
+    }
+    /* QNA Media Quries */
+    .qna-header .qna-para {
+        font-size: 16px;
+        margin: 20px 3px;
+        line-height: 1.9;
+    }
+}
+
+
+/* Media Quries 360px */
+
+@media(max-width:360px) {
+    .navbar-brand img {
+        width: 170px;
+    }
+    /* Banner Media Quries */
+
+    .home-banner-img {
+        margin-top: 90px !important;
+        margin-left: -5px !important;
+    }
+
+    .home-banner-txt {
+        /* width: 100%; */
+        margin-top: 45px;
+        padding: 0px 0px;
+        /* margin-left: 0px; */
+    }
+    .home-banner-title h2 {
+        margin-right: 10px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .home-banner-live-sec p {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .banner-livecount {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 365px;
+        height: 105px;
+        padding: 20px 5px;
+    }
+    .banner-livecount {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 299px;
+        height: 92px;
+        padding: 20px 20px 20px 0px;
+    }
+
+    .home-banner-weacpt p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .home-banner-btns .whitepaper {
+        font-size: 12px;
+        font-weight: 200;
+        color: #fff;
+        padding: 10px 25px 10px 25px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 25px;
+        margin-right: 5px;
+    }
+    .home-banner-btns .whitepaper i {
+        color: #fff;
+        margin-left: 9px;
+    }
+    .home-banner-btns .tokenbuy {
+        color: #fff;
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        padding: 8px 15px 8px 14px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+    }
+    .home-banner-img {
+        margin-top: 67px;
+        margin-left: 0px;
+    }
+    .home-banner-img img {
+        width: 335px !important;
+    }
+
+    .banner-weacpt {
+        margin: 0 0px !important;
+    }
+
+    
+   .banner-weacpt .bitcoin p,
+   .ethereum p,
+   .litecoin p,
+   .ripple p{
+    font-size: 13px !important;
+    font-weight: 300 !important;
+}
+
+   .banner-weacpt .bitcoin i,
+   .ethereum i,
+   .litecoin i,
+   .ripple i {
+    margin-right: 4px;
+}
+
+    .meetsolution-header .solution-title {
+        font-size: 21px;
+        font-weight: 500 !important;
+    }
+    .meetsolution-header hr {
+        width: 100px;
+        height: 1px;
+        background-color: white;
+        margin-left: 37%;
+    }
+    .meetsolution-header {
+        text-align: center;
+        /* margin-top: 20px; */
+        margin-bottom: 60px;
+        margin-top: 65px !important;
+        color: #fff;
+        /* font-family: 'Poppins', sans-serif; */
+    }
+    .meetsolution-header .solution-para {
+        padding: 9px 10px;
+        font-size: 13px;
+        font-weight: 100;
+        margin-top: 10PX;
+        line-height: 1.9;
+    }
+    .soln-cards .card {
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        background: rgb(18, 24, 51);
+        padding: 13px 0;
+    }
+    .soln-cards .card img {
+        width: 45px;
+        margin-left: 124px;
+        text-align: center !important;
+        background: rgb(18, 24, 51);
+    }
+    .soln-cards .card-title {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    #aboutcrypto .aboucrypto-img img {
+        width: 330px;
+    }
+    .aboutcryp-title h2 {
+        font-size: 18px;
+        font-weight: 600 !important;
+        margin-bottom: 8px;
+    }
+    .aboutcrypto-txt {
+        margin-left: 0px;
+        margin-top: 39px;
+        color: #fff;
+    }
+    .aboutcryp-para p {
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 1.8;
+    }
+    .aboutcryp-para2 p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.8;
+    }
+    .aboutcryp-btn .btn {
+        padding: 12px 22px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 30px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .token-sale-proceed-title h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .sale-proceed-img img {
+        width: 310px;
+        margin-top: 25px;
+        margin-right: 0px;
+    }
+    .sale-prcd-txt p {
+        font-size: 7px;
+        font-weight: 200;
+    }
+    .distribution-title h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .distribution-img img {
+        width: 310px !important;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .distbn-txt p {
+        font-size: 8px;
+        font-weight: 200;
+    }
+    .mobile-app-title h2 {
+        font-size: 22px;
+        font-weight: 400px !important;
+    }
+    .mobile-app-para p {
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 1.9;
+    }
+    .mobile-app-para2 p {
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 1.9;
+    }
+    .mobile-app-btn .btn {
+        padding: 11px 22px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 30px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #latestnews {
+        height: auto;
+        margin: 20px -10px;
+    }
+    .item-a,
+    .item-b,
+    .item-c,
+    .item-d,
+    .item-e {
+        margin: 0 0px !important;
+    }
+
+    #adaptive .card {
+        width: 310px;
+        height: 430px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid white;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        margin-right: 0px;
+    }
+    .ourclient-title h2 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    #adaptive>.card-title {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    #adaptive>.card-text {
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 1.7;
+    }
+
+    .item-a,
+    .item-b,
+    .item-c,
+    .item-d,
+    .item-e>.card-footer>.date{
+        font-size: 12px !important;
+    }
+
+    .client-logo-1 img,
+    .client-logo-2 img,
+    .client-logo-3 img,
+    .client-logo-4 img,
+    .client-logo-5 img,
+    .client-logo-6 img,
+    .client-logo-7 img,
+    .client-logo-8 img {
+        width: 130px;
+        padding: 20px !important;
+    }
+    .cont-withus-title h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        margin: 0px 0px 20px 10px;
+    }
+    .cont-withus-title p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin: 10px 10px;
+        line-height: 1.8;
+    }
+    .address-txt .address-title {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .address-txt .address-para {
+        font-size: 14px;
+    }
+    .phone-txt .phone-title {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .phone-txt .phone-para {
+        font-size: 14px;
+    }
+    .email-id-txt .email-id-title {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .email-id-txt .email-id-para {
+        font-size: 14px;
+    }
+    .contact-form {
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+    .contact-form input {
+        width: 330px;
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .contact-form .form-btn .btn {
+        padding: 13px 120px;
+        margin-left: 2px;
+        background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+        border-radius: 100px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .crypto-footer-logo img {
+        width: 200px;
+    }
+    .newsletter-input input {
+        margin-top: 10px;
+        padding: 12px 103px 12px 16px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+    .newsletter-input .btn {
+        height: 40px;
+        padding: 10px 11px !important;
+        position: relative !important;
+        right: 114px !important;
+        top: 16px;
+        background-color: rgb(18, 24, 51);
+        font-size: 14px;
+        font-weight: 100;
+        color: #fff;
+        border-radius: 20px;
+    }
+}
